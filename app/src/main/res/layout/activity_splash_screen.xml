@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_013_diet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/app_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/roboto"
+        android:text="Boosted"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/splash_image"
+        app:layout_constraintStart_toStartOf="@+id/splash_image"
+        app:layout_constraintTop_toBottomOf="@+id/splash_image" />
+
+    <TextView
+        android:id="@+id/app_name_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abeezee"
+        android:text="Productivity"
+        android:textAllCaps="true"
+        android:textColor="@android:color/tertiary_text_light"
+        app:layout_constraintEnd_toEndOf="@+id/app_name_txt"
+        app:layout_constraintStart_toStartOf="@+id/app_name_txt"
+        app:layout_constraintTop_toBottomOf="@+id/app_name_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Boosted</string>
+    <string name="activity_image">Activity Image</string>
+    <string name="privacy_policy">"By using this app you agree to Boosted\'s"</string>
+    <string name="learn_more"><u>Learn more ></u></string>
+    <string name="action_favorite">Favourite</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_routines">My Routines</string>
+    <string name="habits_tracker">Habits Tracker</string>
+    <string name="focused">Focus-o-meter</string>
+</resources>
